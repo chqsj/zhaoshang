@@ -1,0 +1,215 @@
+.business-container {
+  width: 100%;
+
+
+  .search-header {
+    height: 60px;
+    background-color: #2b3049;
+    border-radius: 4px;
+    padding: 15px;
+
+    .search-left {
+
+      // display: flex;
+      // width: 50%;
+      .title {
+        color: #7f8699;
+      }
+
+      .date {
+        width: 175px;
+        margin: 0 10px;
+        background-color: #2b3049;
+        border-color: #3b4155;
+
+        ::ng-deep .ng-touched {
+          color: #ffffff;
+        }
+
+        ::ng-deep input::-webkit-input-placeholder {
+          color: #6a7085;
+        }
+
+        ::ng-deep input::-moz-input-placeholder {
+          color: #6a7085;
+        }
+
+        ::ng-deep input::-ms-input-placeholder {
+          color: #6a7085;
+        }
+
+      }
+
+      .search-input {
+        width: 350px;
+        margin-right: 10px;
+        background-color: #2b3049;
+        border-color: #3b4155;
+        color: #ffffff;
+
+        &::-webkit-input-placeholder {
+          color: #6a7085;
+        }
+
+        &::-moz-input-placeholder {
+          color: #6a7085;
+        }
+
+        &::-ms-input-placeholder {
+          color: #6a7085;
+        }
+      }
+
+      // #708395
+      .search-btn {}
+    }
+
+    .search-right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .refresh,
+      .setting {
+        background-color: #2b3049;
+        color: #d2d6df;
+        border-color: #4e5776;
+        margin-right: 5px;
+      }
+
+    }
+  }
+
+  .table-content {
+    margin-top: 10px;
+    background-color: #303652;
+    border-radius: 4px;
+    min-height: 500px;
+    padding: 5px 5px 20px 5px;
+    .t-c {
+      text-align: center;
+    }
+
+    ::ng-deep .bussiness-table {
+
+      .ant-table-container {
+        background-color: #303652;
+        border: none;
+        .ant-table-thead {  
+          .ant-table-cell {
+            background-color: #303652;
+            color: #80889d;
+            border-bottom: 2px solid #2b3049;
+            border-right: 2px solid #2b3049;
+            padding: 10px 15px;
+          }
+        }
+
+        .ant-table-tbody {
+          .ant-table-cell {
+            background-color: #303652;
+            color: #d2d4c7;
+            border-bottom: 2px solid #2b3049;
+            border-right: 2px solid #2b3049;
+            padding: 10px 15px;
+
+            &.ant-table-cell-with-append {
+              background-color: red;
+              border-radius: 8px;
+            }
+            &.no-children{
+              background-color: #563c14;
+            }
+            &.desc-td{
+              background-color: #303652;
+            }
+          }
+        }
+
+      }
+
+      // 数据为空
+      .ant-empty-description{
+        color: #fafafa;
+      }
+
+
+
+      ::-webkit-scrollbar-track-piece {
+        //滚动条凹槽的颜色，还可以设置边框属性
+        background-color: rgba(255, 0, 0,.1);
+      }
+
+      //滚动条的宽度
+      ::-webkit-scrollbar {
+        width: 10px;
+        height: 6px;
+      }
+
+      //滚动条的滑块
+      ::-webkit-scrollbar-thumb {
+        background-color: #a1a3a9;
+        border-radius: 3px;
+      }
+    }
+
+
+  }
+
+  .page {
+    text-align: right;
+    margin-top: 15px;
+
+    ::ng-deep .pagination {
+
+      .ant-pagination-total-text {
+        color: #f0f1f6;
+      }
+
+      .ant-pagination-item-link {
+        background-color: #22263a;
+        border: 1px solid #383d59;
+        color: #383d59;
+      }
+
+      .ant-pagination-item {
+        background-color: #22263a;
+        border: 1px solid #383d59;
+
+        &.ant-pagination-item-active {
+          border: 1px solid #317bbe;
+          color: #317bbe;
+
+          .ng-star-inserted {
+            color: #317bbe;
+          }
+        }
+
+        .ng-star-inserted {
+          // background-color: #22263a;
+          color: #ecf1f2;
+
+        }
+      }
+
+      .ant-pagination-options {
+        .ant-select-selector {
+          border: 1px solid #383d59;
+          background-color: #22263a;
+          color: #f0f1f6;
+        }
+
+        .ant-select-arrow {
+          .anticon-down {
+            color: #f0f1f6;
+          }
+
+        }
+
+      }
+
+
+
+    }
+  }
+}

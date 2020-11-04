@@ -1,0 +1,19 @@
+<div class="header">
+  <img src="../../../assets/logo.png" alt="" />
+
+  <ul class="nav" nz-menu nzMode="horizontal">
+    <li
+      class="nav-item"
+      *ngFor="let router of routerList; let key = index"
+      nz-menu-item
+      nzMatchRouter
+      [nzSelected]="key === 0"
+    >
+      <a [routerLink]="router.path" routerLinkActive="router-link-active">
+        {{ router.title }}</a
+      >
+    </li>
+    <!-- <li class="nav-item" nz-menu-item>Navigation One</li>
+    <li class="nav-item" nz-menu-item>Navigation One</li> -->
+  </ul>
+</div>

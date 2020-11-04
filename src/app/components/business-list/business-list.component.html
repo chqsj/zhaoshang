@@ -1,0 +1,120 @@
+<div class="business-container">
+  <div nz-row class="search-header">
+    <div class="search-left">
+      <span class="title">时间:</span>
+      <nz-date-picker
+        class="date"
+        nzShowTime
+        nzPlaceHolder="请输入时间"
+        nzFormat="yyyy-MM-dd HH:mm"
+        ngModel
+        nzSuffixIcon=""
+        (ngModelChange)="onChange($event)"
+        (nzOnOk)="onOk($event)"
+      ></nz-date-picker>
+      <input
+        class="search-input"
+        nz-input
+        placeholder="输入业务码或者业务码描述搜索"
+        [(ngModel)]="searchValue"
+      />
+      <button class="search-btn" nz-button nzType="primary" (click)="search()">立即查询</button>
+    </div>
+    <div nz-col nzFlex="12" class="search-right">
+      <button nz-button class="refresh">
+        <i nz-icon nzType="reload"></i>
+        最新数据
+      </button>
+      <button nz-button class="setting">
+        <i nz-icon nzType="bars"></i>设置列
+      </button>
+    </div>
+  </div>
+  <div class="table-content">
+    <nz-table
+      class="bussiness-table"
+      #expandTable
+      nzShowPagination="false"
+      nzBordered
+      [nzPageIndex]="pageData.pageIndex"
+      [nzPageSize]="pageData.pageSize"
+      [nzData]="listOfMapData"
+      nzTableLayout="fixed"
+      [nzScroll]="{ x: '600px' }"
+      [nzLoading]="spining"
+    >
+      <thead>
+        <tr>
+          <th
+            *ngFor="let column of columns"
+            [nzWidth]="column.width + 'px'"
+            class="t-c"
+          >
+            {{ column.title }}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let data of expandTable.data">
+          <ng-container *ngFor="let item of mapOfExpandedData[data.key]">
+            <tr *ngIf="(item.parent && item.parent.expand) || !item.parent">
+              <td
+                [nzIndentSize]="item.level! * 20"
+                [nzShowExpand]="!!item.children"
+                [(nzExpand)]="item.expand"
+                (nzExpandChange)="
+                  collapse(mapOfExpandedData[data.key], item, $event)
+                "
+                [ngClass]="[
+                  item.children ? '' : 'no-children',
+                  !item.children && item.level == 0 ? 'desc-td' : ''
+                ]"
+              >
+                <i nz-icon nzType="reload"></i> {{ item.desc }}
+              </td>
+              <td class="t-c">
+                <i nz-icon [nzType]="i" *ngFor="let i of item.framework"></i>
+              </td>
+              <td class="t-c">
+                <i nz-icon [nzType]="item.trend"></i>
+              </td>
+              <td class="t-c">{{ item.createTime | dateFormat }}</td>
+              <td class="t-c">{{ item.resCount }}</td>
+              <td class="t-c">{{ item.reqCount }}</td>
+              <td class="t-c">{{ item.reqRate }}</td>
+              <td class="t-c">{{ item.avgReqTime }}</td>
+              <td class="t-c">{{ item.maxReqTime }}</td>
+              <td class="t-c">{{ item.successCount }}</td>
+              <td class="t-c">{{ item.successRate }}</td>
+              <td class="t-c">
+                <ng-container
+                  *ngIf="item.sampling.includes(''); else elseTemplate"
+                >
+                  -<i nz-icon [nzType]="i" *ngFor="let i of item.sampling"></i>
+                </ng-container>
+                <ng-template #elseTemplate>
+                  <i nz-icon [nzType]="i" *ngFor="let i of item.sampling"></i
+                ></ng-template>
+              </td>
+              <td class="t-c">{{ item.errorCode }}</td>
+            </tr>
+          </ng-container>
+        </ng-container>
+      </tbody>
+    </nz-table>
+    <div class="page">
+      <nz-pagination
+        class="pagination"
+        [nzTotal]="pageData.total"
+        nzShowSizeChanger
+        [nzPageIndex]="pageData.pageIndex"
+        [nzPageSize]="pageData.pageSize"
+        [nzShowTotal]="totalTemplate"
+        [nzPageSizeOptions]='[5, 10, 15, 20]'
+        (nzPageIndexChange)="nzPageIndexChange($event)"
+        (nzPageSizeChange)="nzPageSizeChange($event)"
+      ></nz-pagination>
+      <ng-template #totalTemplate let-total> 共 {{ total }} 条 </ng-template>
+    </div>
+  </div>
+</div>

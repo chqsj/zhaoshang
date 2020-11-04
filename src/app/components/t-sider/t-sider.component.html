@@ -1,0 +1,121 @@
+<ul
+  nz-menu
+  nzMode="inline"
+  nzTheme="dark"
+  class="sider-container"
+  [nzInlineCollapsed]="isCollapsed"
+>
+  <ng-container *ngFor="let router of routerList; let key = index">
+    <li
+      *ngIf="
+        router.title !== '业务大屏监控' && router.title !== '分布式链路追踪'
+      "
+      nz-menu-item
+      nz-tooltip
+      nzTooltipPlacement="right"
+      nzTooltipTitle="Navigation One"
+      nzSelected
+      nzMatchRouter
+    >
+      <a [routerLink]="router.path">
+        <i nz-icon nzType="mail"></i>
+        <span style="color: #fff">{{ router.title }}</span></a
+      >
+    </li>
+    <li
+      *ngIf="
+        router.title === '业务大屏监控' || router.title === '分布式链路追踪'
+      "
+      nz-submenu
+      nz-tooltip
+      nzTooltipPlacement="right"
+      [nzTitle]="router.title"
+      nzIcon="mail"
+      nzSelected
+      nzMatchRouter
+    >
+      <ul>
+        <li
+          nz-menu-item
+          nz-tooltip
+          nzTooltipPlacement="right"
+          nzTooltipTitle="Navigation One"
+          nzSelected
+          nzMatchRouter
+        >
+          实例
+        </li>
+      </ul>
+    </li>
+    <!-- <li
+    *ngIf="
+      router.title === '业务大屏监控' || router.title === '分布式链路追踪'
+    "
+    nz-menu-item
+    nz-tooltip
+    nzTooltipPlacement="right"
+    nzTooltipTitle="Navigation One"
+    nzSelected
+    nzMatchRouter
+  >
+    <a [routerLink]="router.path">
+      <i nz-icon nzType="mail"></i>
+      <span style="color: #fff">{{ router.title }}</span></a
+    >
+  </li> -->
+  </ng-container>
+
+  <!-- [nzInlineCollapsed]="isCollapsed" -->
+  <!-- 
+      [nz-menu-item]="router.title === '业务大屏监控' || router.title === '分布式链路追踪'"
+    [nz-submenu]="router.title === '业务大屏监控' || router.title === '分布式链路追踪'"
+ -->
+  <!-- <li
+    nz-menu-item
+    nz-tooltip
+    nzTooltipPlacement="right"
+    nzTooltipTitle="Navigation One"
+    nzSelected
+    nzMatchRouter
+    *ngFor="let router of routerList; let key = index"
+  >
+    <ng-container
+      *ngIf="
+        router.title !== '业务大屏监控' || router.title !== '分布式链路追踪';
+        else elseTemplate
+      "
+    >
+      <a [routerLink]="router.path">
+        <i nz-icon nzType="mail"></i>
+        <span style="color: #fff">{{ router.title }}</span></a
+      >
+    </ng-container>
+    <ng-template #elseTemplate>
+      <ul>
+        <li nz-menu-item>Option 5</li>
+        <li nz-menu-item>Option 6</li>
+        <li nz-submenu nzTitle="Submenu">
+          <ul>
+            <li nz-menu-item>Option 7</li>
+            <li nz-menu-item>Option 8</li>
+          </ul>
+        </li>
+      </ul>
+    </ng-template> -->
+
+  <!-- *ngIf="router.title === '业务大屏监控' || router.title === '分布式链路追踪'" -->
+  <!-- <ul>
+      <li nz-menu-item>Option 5</li>
+      <li nz-menu-item>Option 6</li>
+      <li nz-submenu nzTitle="Submenu">
+        <ul>
+          <li nz-menu-item>Option 7</li>
+          <li nz-menu-item>Option 8</li>
+        </ul>
+      </li>
+    </ul> -->
+  <!-- </li> -->
+  <button class="toggle-btn" nz-button (click)="toggleCollapsed()">
+    <i nz-icon [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"></i>
+  </button>
+</ul>

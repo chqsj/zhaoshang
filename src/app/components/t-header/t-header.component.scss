@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #2a3048;
+    .nav{
+        display: flex;
+        height: 100%;
+        margin-bottom: 0;
+        background-color: #2a3048;
+        border-bottom: none;
+        padding-left: 50px;
+        .nav-item{
+            color: #727a8a;
+            list-style: none;
+            margin-left: 0 !important;
+            height: 100%;
+            line-height: 60px;
+            margin-left: 50px;
+            &.ant-menu-item-selected{
+                color: #ebebe1;
+                border-bottom:4px solid #318af0;
+            }
+            .router-link-active{
+                color: #ebebe1;
+                padding-bottom: 17px;
+            }
+            a{
+                color: #727a8a;
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+            }
+        }
+    }
+}
