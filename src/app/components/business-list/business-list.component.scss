@@ -1,7 +1,6 @@
 .business-container {
   width: 100%;
 
-
   .search-header {
     height: 60px;
     background-color: #2b3049;
@@ -9,7 +8,6 @@
     padding: 15px;
 
     .search-left {
-
       // display: flex;
       // width: 50%;
       .title {
@@ -37,7 +35,6 @@
         ::ng-deep input::-ms-input-placeholder {
           color: #6a7085;
         }
-
       }
 
       .search-input {
@@ -61,7 +58,8 @@
       }
 
       // #708395
-      .search-btn {}
+      .search-btn {
+      }
     }
 
     .search-right {
@@ -76,7 +74,6 @@
         border-color: #4e5776;
         margin-right: 5px;
       }
-
     }
   }
 
@@ -86,16 +83,17 @@
     border-radius: 4px;
     min-height: 500px;
     padding: 5px 5px 20px 5px;
+
     .t-c {
       text-align: center;
     }
 
     ::ng-deep .bussiness-table {
-
       .ant-table-container {
         background-color: #303652;
         border: none;
-        .ant-table-thead {  
+
+        .ant-table-thead {
           .ant-table-cell {
             background-color: #303652;
             color: #80889d;
@@ -117,27 +115,26 @@
               background-color: red;
               border-radius: 8px;
             }
-            &.no-children{
+
+            &.no-children {
               background-color: #563c14;
             }
-            &.desc-td{
+
+            &.desc-td {
               background-color: #303652;
             }
           }
         }
-
       }
 
       // 数据为空
-      .ant-empty-description{
+      .ant-empty-description {
         color: #fafafa;
       }
 
-
-
       ::-webkit-scrollbar-track-piece {
         //滚动条凹槽的颜色，还可以设置边框属性
-        background-color: rgba(255, 0, 0,.1);
+        background-color: rgba(255, 0, 0, 0.1);
       }
 
       //滚动条的宽度
@@ -152,8 +149,6 @@
         border-radius: 3px;
       }
     }
-
-
   }
 
   .page {
@@ -161,7 +156,6 @@
     margin-top: 15px;
 
     ::ng-deep .pagination {
-
       .ant-pagination-total-text {
         color: #f0f1f6;
       }
@@ -188,7 +182,6 @@
         .ng-star-inserted {
           // background-color: #22263a;
           color: #ecf1f2;
-
         }
       }
 
@@ -203,13 +196,8 @@
           .anticon-down {
             color: #f0f1f6;
           }
-
         }
-
       }
-
-
-
     }
   }
 }

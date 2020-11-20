@@ -1,0 +1,2060 @@
+[
+  {
+    "id": 1,
+    "username": "张三",
+    "phone": "12345678901",
+    "list": [
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "李四",
+    "phone": "12345678902",
+    "list": [
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "王五",
+    "phone": "12345678903",
+    "list": [
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "username": "王企鹅",
+    "phone": "12345678904",
+    "list": [
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "username": "阿迪王",
+    "phone": "12345678905",
+    "list": [
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "username": "查柳",
+    "phone": "12345678906",
+    "list": [
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "1931",
+        "signin": "APP",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "131",
+        "signin": "IFanCalendar",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      },
+      {
+        "consumingTime": "569",
+        "signin": "北京公积金",
+        "createTime": "14:04:26",
+        "ditails": [
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 345
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 135
+          },
+          {
+            "time": "14:04:26",
+            "desc": "PageLoad(页面加载)",
+            "url": "http://abc.com/",
+            "preview": "预览",
+            "consumingTime": 266
+          }
+        ]
+      }
+    ]
+  }
+]

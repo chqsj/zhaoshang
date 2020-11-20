@@ -1,0 +1,29 @@
+::ng-deep .journey-table {
+  .ant-table {
+    .ant-table-container {
+      background-color: #373e60;
+      .ant-table-thead {
+        .ant-table-cell {
+          color: #7e869e;
+          background-color: #373e60;
+          border-bottom: 2px solid #272e4d;
+        }
+      }
+
+      .ant-table-tbody {
+        color: #cad2ec;
+        .ant-table-row {
+          > td {
+            border-bottom: 2px solid #272e4d;
+          }
+        }
+        .ant-table-row:hover {
+          cursor: pointer;
+          > td {
+            background-color: #3c476a;
+          }
+        }
+      }
+    }
+  }
+}

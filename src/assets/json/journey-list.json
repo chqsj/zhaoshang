@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "username": "张三",
+    "phone": "12345678901",
+    "status": 0,
+    "createTime": "2019-09-12 14:04:26",
+    "address": "广东|深圳市"
+  },
+  {
+    "id": 2,
+    "username": "李四",
+    "phone": "12345678902",
+    "status": 1,
+    "createTime": "2019-09-12 14:04:26",
+    "address": "广东|深圳市"
+  },
+  {
+    "id": 3,
+    "username": "王五",
+    "phone": "12345678903",
+    "status": 0,
+    "createTime": "2019-09-12 14:04:26",
+    "address": "广东|深圳市"
+  },
+  {
+    "id": 4,
+    "username": "王企鹅",
+    "phone": "12345678904",
+    "status": 0,
+    "createTime": "2019-09-12 14:04:26",
+    "address": "广东|深圳市"
+  },
+  {
+    "id": 5,
+    "username": "阿迪王",
+    "phone": "12345678905",
+    "status": 1,
+    "createTime": "2019-09-12 14:04:26",
+    "address": "广东|深圳市"
+  },
+  {
+    "id": 6,
+    "username": "查柳",
+    "phone": "12345678906",
+    "status": 1,
+    "createTime": "2019-09-12 14:04:26",
+    "address": "广东|深圳市"
+  }
+]

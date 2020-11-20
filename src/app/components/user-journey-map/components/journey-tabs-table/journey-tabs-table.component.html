@@ -1,0 +1,35 @@
+<nz-table
+  class="journey-table"
+  #basicTable
+  [nzData]="listOfData"
+  [nzShowPagination]="false"
+>
+  <thead>
+    <tr>
+      <th></th>
+      <th>序号</th>
+      <th>时间</th>
+      <th>步骤描述</th>
+      <th>URL</th>
+      <th>预览</th>
+      <th nzWidth="300px">耗时</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of basicTable.data; let key = index">
+      <td><i nz-icon nzType="user"></i></td>
+      <td>{{ data.key }}</td>
+      <td>{{ data.time }}</td>
+      <td>{{ data.desc }}</td>
+      <td>{{ data.url }}</td>
+      <td>{{ data.preview }}</td>
+      <td style="display: flex; align-items: center">
+        <app-consuming-time
+          [count]="data.consumingTime"
+          style="margin-right: 5px"
+        ></app-consuming-time>
+        {{ data.consumingTime }}
+      </td>
+    </tr>
+  </tbody>
+</nz-table>

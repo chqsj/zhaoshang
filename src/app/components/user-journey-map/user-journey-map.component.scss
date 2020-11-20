@@ -1,0 +1,111 @@
+::ng-deep .journey-container {
+  border-radius: 4px;
+
+  //   首页样式
+  .is-index {
+    min-height: 600px;
+    background-color: #283046;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .journey-banner {
+      margin-bottom: 30px;
+    }
+  }
+
+  //   非首页样式
+  .no-index {
+    min-height: 600px;
+    // 顶部搜索
+    .top {
+      background-color: #283046;
+      height: 75px;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+    }
+
+    // 底部内容
+    .bottom {
+      margin-top: 15px;
+      background-color: #283046;
+      padding: 20px;
+
+      // 表格
+      .journey-table {
+      }
+      // 流程图
+      .journey-line {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 120px;
+        background-color: #2f3655;
+
+        .user-line-container {
+          background-color: red;
+          width: 100%;
+          padding: 10px;
+          // .map {
+          //   margin-top: 10px;
+          //   // height: 200px;
+          //   background-color: #2f3655;
+          // }
+        }
+      }
+      // 流程页签
+      .journey-tabs {
+        margin-top: 20px;
+        .ant-card {
+          background-color: #2f3655;
+          border: none;
+          .ant-card-head {
+            border-bottom-color: #39415b;
+            .ant-tabs {
+              color: #8c94ae;
+            }
+            .ant-tabs-nav::before {
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .search-div {
+    display: flex;
+    .search-select {
+      width: 140px;
+      height: 40px;
+
+      .ant-select-selector {
+        border: 1px solid #bfbfbf;
+        background-color: #283046;
+        color: #bfbfbf;
+      }
+      .ant-select-arrow {
+        color: #bfbfbf;
+      }
+    }
+    .search-input {
+      height: 40px;
+      background-color: #283046;
+      color: #bfbfbf;
+    }
+    .search-btn {
+      width: 120px;
+      height: 40px;
+      &:hover {
+        background-color: #ff771f;
+        border: 1px solid #ff771f;
+      }
+    }
+  }
+}
+
+.red {
+  color: red;
+}

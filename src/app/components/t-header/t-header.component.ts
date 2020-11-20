@@ -1,18 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { routers } from '../../routers'
+import { routers } from '../../routers';
 
 @Component({
   selector: 'app-t-header',
   templateUrl: './t-header.component.html',
-  styleUrls: ['./t-header.component.scss']
+  styleUrls: ['./t-header.component.scss'],
 })
 export class THeaderComponent implements OnInit {
   public routerList: any[];
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
-    console.log(routers);
-    this.routerList = routers.slice(0,-3)
+    this.routerList = routers.slice(0, -3);
   }
-
 }

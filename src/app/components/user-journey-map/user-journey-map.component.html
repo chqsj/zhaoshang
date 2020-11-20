@@ -1,1 +1,188 @@
-<p>user-journey-map works!</p>
+<div class="journey-container">
+  <!-- <ng-container *ngIf="showIndex">首页</ng-container> -->
+  <ng-container *ngIf="showIndex; else elseTemplate">
+    <div class="is-index">
+      <img src="../../../assets/compass.png" alt="" class="journey-banner" />
+      <div class="search-div">
+        <nz-select [(ngModel)]="timeFrame" class="search-select" nzSize="large">
+          <nz-option nzValue="nearThree" nzLabel="最近3小时"></nz-option>
+          <nz-option nzValue="nearSix" nzLabel="最近6小时"></nz-option>
+          <nz-option nzValue="nearDay" nzLabel="最近1天"></nz-option>
+        </nz-select>
+        <nz-input-group
+          style="width: 550px"
+          nzSearch
+          nzSize="large"
+          [nzAddOnAfter]="suffixButton"
+        >
+          <input
+            type="text"
+            class="search-input"
+            [(ngModel)]="searchText"
+            nz-input
+            placeholder="请输入姓名或者手机号进行搜索"
+          />
+        </nz-input-group>
+        <ng-template #suffixButton>
+          <button
+            nz-button
+            nzType="primary"
+            nzSize="large"
+            class="search-btn"
+            nzSearch
+            (click)="indexSearch()"
+          >
+            搜索
+          </button>
+        </ng-template>
+      </div>
+    </div>
+  </ng-container>
+
+  <!-- 非首页 -->
+  <ng-template #elseTemplate>
+    <div class="no-index">
+      <div class="top">
+        <div class="search-div">
+          <nz-select
+            [(ngModel)]="timeFrame"
+            class="search-select"
+            nzSize="large"
+          >
+            <nz-option nzValue="nearThree" nzLabel="最近3小时"></nz-option>
+            <nz-option nzValue="nearSix" nzLabel="最近6小时"></nz-option>
+            <nz-option nzValue="nearDay" nzLabel="最近1天"></nz-option>
+          </nz-select>
+          <nz-input-group
+            style="width: 550px"
+            nzSearch
+            nzSize="large"
+            [nzAddOnAfter]="suffixButton"
+          >
+            <input
+              type="text"
+              class="search-input"
+              [(ngModel)]="searchText"
+              nz-input
+              placeholder="请输入姓名或者手机号进行搜索"
+            />
+          </nz-input-group>
+          <ng-template #suffixButton>
+            <button
+              nz-button
+              nzType="primary"
+              nzSize="large"
+              class="search-btn"
+              nzSearch
+              (click)="indexSearch()"
+            >
+              搜索
+            </button>
+          </ng-template>
+        </div>
+      </div>
+      <div class="bottom">
+        <!-- 表格 -->
+        <nz-table
+          [nzScroll]="{ y: '280px' }"
+          #basicTable
+          [nzLoading]="tableSpining"
+          [nzShowPagination]="false"
+          [nzData]="listOfData"
+          class="journey-table"
+        >
+          <tbody>
+            <tr
+              *ngFor="let data of basicTable.data; let key = index"
+              (click)="rowClick($event, data)"
+            >
+              <td>{{ key + 1 }}</td>
+              <td>用户名:{{ data.username }}</td>
+              <td>{{ data.phone }}</td>
+              <td [class]="{ red: data.status !== 1 }">
+                {{ data.status === 1 ? "成功" : "失败" }}
+              </td>
+              <td>{{ data.createTime }}</td>
+              <td>{{ data.address }}</td>
+            </tr>
+          </tbody>
+        </nz-table>
+
+        <!-- 行程图 -->
+        <div class="journey-line">
+          <ng-container *ngIf="!loading; else elseTemplate">
+            <span style="color: #e3d3dc; font-weight: bold; font-size: 20px">
+              请点击上面的记录查看用户行为
+            </span>
+          </ng-container>
+          <ng-template #elseTemplate>
+            <ng-container *ngIf="loading && !isSee">
+              <ng-template #indicatorTemplate
+                ><i
+                  nz-icon
+                  nzType="loading"
+                  style="font-size: 32px; font-weight: bold"
+                ></i
+              ></ng-template>
+              <nz-spin
+                nzSize="large"
+                nzSimple
+                [nzIndicator]="indicatorTemplate"
+              >
+              </nz-spin>
+            </ng-container>
+            <ng-container *ngIf="loading && isSee">
+              <app-journey-container
+                [loading]="loading"
+                [isSee]="isSee"
+                (showMap)="showMap()"
+                style="width: 100%"
+                #journeyContainer
+              ></app-journey-container>
+              <!-- <div class="user-line-container">
+                <div nz-row nzAlign="middle" nzJustify="space-between">
+                  <div class="nz-col">用户旅程图</div>
+                  <div class="nz-col">
+                    <button nz-button>查看全部行为</button>
+                  </div>
+                </div>
+                <div class="map" id="map" #map></div>
+              </div> -->
+              <!-- <nz-card style="width: 100%">
+                <nz-card-tab>
+                  <nz-tabset nzSize="large" [(nzSelectedIndex)]="index2">
+                    <nz-tab nzTitle="article"></nz-tab>
+                    <nz-tab nzTitle="app"></nz-tab>
+                    <nz-tab nzTitle="project"></nz-tab>
+                  </nz-tabset>
+                </nz-card-tab>
+                content{{ index2 }}
+              </nz-card> -->
+            </ng-container>
+          </ng-template>
+        </div>
+
+        <!-- 行程页签 -->
+        <div class="journey-tabs">
+          <nz-card style="width: 100%">
+            <nz-card-tab>
+              <nz-tabset
+                nzSize="large"
+                [(nzSelectedIndex)]="index2"
+                (nzSelectedIndexChange)="nzSelectedIndexChange($event)"
+                (nzSelectChange)="nzSelectChange($event)"
+              >
+                <nz-tab nzTitle="APP"> </nz-tab>
+                <nz-tab nzTitle="IFanCalendar"> </nz-tab>
+                <nz-tab nzTitle="北京公积金"> </nz-tab>
+                <nz-tab nzTitle="北京公积金"> </nz-tab>
+                <nz-tab nzTitle="APP"> </nz-tab>
+              </nz-tabset>
+            </nz-card-tab>
+            <app-journey-tabs-table></app-journey-tabs-table>
+          </nz-card>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

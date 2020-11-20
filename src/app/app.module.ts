@@ -23,6 +23,10 @@ import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzPaginationModule } from 'ng-zorro-antd/pagination';
 import { NzMessageModule } from 'ng-zorro-antd/message';
+import { NzSelectModule } from 'ng-zorro-antd/select';
+import { NzCardModule } from 'ng-zorro-antd/card';
+import { NzTabsModule } from 'ng-zorro-antd/tabs';
+import { NzSpinModule } from 'ng-zorro-antd/spin';
 
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MarketComponent } from './components/market/market.component';
@@ -40,6 +44,9 @@ import { DistributedLinkComponent } from './components/distributed-link/distribu
 import { ConfigInformationComponent } from './components/config-information/config-information.component';
 import { THeaderComponent } from './components/t-header/t-header.component';
 import { TSiderComponent } from './components/t-sider/t-sider.component';
+import { JourneyTabsTableComponent } from './components/user-journey-map/components/journey-tabs-table/journey-tabs-table.component';
+import { ConsumingTimeComponent } from './common/consuming-time/consuming-time.component';
+import { JourneyContainerComponent } from './components/user-journey-map/components/journey-container/journey-container.component';
 
 registerLocaleData(zh);
 
@@ -49,10 +56,8 @@ import { DateFormatPipe } from './pipe/date-format.pipe';
 import { CommonInterceptor } from './service/httpInterceptor';
 
 // 引入a b 模块
-import {AModule} from './module/a/a.module'
-import {BModule} from './module/b/b.module'
-
-
+import { AModule } from './module/a/a.module';
+import { BModule } from './module/b/b.module';
 
 @NgModule({
   declarations: [
@@ -71,9 +76,13 @@ import {BModule} from './module/b/b.module'
     MonitoringScreenComponent,
     DistributedLinkComponent,
     ConfigInformationComponent,
+    JourneyTabsTableComponent,
     THeaderComponent,
     TSiderComponent,
     DateFormatPipe,
+    ConsumingTimeComponent,
+    ConsumingTimeComponent,
+    JourneyContainerComponent,
   ],
   imports: [
     BrowserModule,
@@ -90,8 +99,12 @@ import {BModule} from './module/b/b.module'
     NzInputModule,
     NzTableModule,
     NzPaginationModule,
+    NzSelectModule,
+    NzTabsModule,
+    NzCardModule,
+    NzSpinModule,
     AModule,
-    BModule
+    BModule,
   ],
   providers: [
     { provide: NZ_I18N, useValue: zh_CN },

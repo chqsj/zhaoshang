@@ -1,4 +1,5 @@
-<p>这是order页面</p>
-
-<app-profile (onVoted)='listen($event)' #ProfileComponent></app-profile>
-<button (click)="getChildren()">获取子组件时间</button>
+<p (click)="send()">
+  这是order页面
+</p>
+<button (click)="change()">修改bService</button>
+<p style="color: #fff">{{ bService.bData.name }}</p>
